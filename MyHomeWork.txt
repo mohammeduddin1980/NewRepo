@@ -1,0 +1,96 @@
+Git Commands  
+
+git config ---->
+This command sets the author name and email address respectively to be used with your commits.
+Example: git config –global user.name “[name]”  
+Example: git config –global user.email “[email address]”  
+git init ---->
+This command is used to start a new repository.
+Example: git init [repository name]
+git clone ---->
+This command is used to obtain a repository from an existing URL.
+Example: git clone [url]  
+git add ---->
+This command adds a file to the staging area.
+Example: git add [file]  
+This command adds one or more to the staging area.
+Example: git add *  
+git commit ---->
+This command records or snapshots the file permanently in the version history.
+Example: git commit -m “[ Type in the commit message]”  
+This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+Example: git commit -a  
+git diff ---->
+This command shows the file differences which are not yet staged.
+Example: git diff  
+This command shows the differences between the files in the staging area and the latest version present.
+Example: git diff –staged 
+This command shows the differences between the two branches mentioned.
+Example: git diff [first branch] [second branch]  
+git reset ---->
+This command unstages the file, but it preserves the file contents.
+Example: git reset [file]  
+This command undoes all the commits after the specified commit and preserves the changes locally.
+Example: git reset [commit]  
+This command discards all history and goes back to the specified commit.
+Example: git reset –hard [commit]  
+git status ---->
+This command lists all the files that have to be committed.
+Example: git status  
+
+git rm ---->
+This command deletes the file from your working directory and stages the deletion.
+Example: git rm [file]  
+git log ---->
+This command is used to list the version history for the current branch.
+Example: git log  
+This command lists version history for a file, including the renaming of files also.
+Example: git log –follow[file]  
+git show ---->
+This command shows the metadata and content changes of the specified commit.
+Example: git show [commit]  
+git tag ---->
+This command is used to give tags to the specified commit.
+Example: git tag [commitID]  
+git branch ---->
+This command lists all the local branches in the current repository.
+Example: git branch  
+This command creates a new branch.
+Example: git branch [branch name]  
+This command deletes the feature branch.
+Example: git branch -d [branch name]  
+git checkout ---->
+This command is used to switch from one branch to another.
+Example: git checkout [branch name]  
+This command creates a new branch and also switches to it.
+Example: git checkout -b [branch name]  
+git merge ---->
+This command merges the specified branch’s history into the current branch.
+Example: git merge [branch name]  
+git remote ---->
+This command is used to connect your local repository to the remote server.
+Example: git remote add [variable name] [Remote Server Link]  
+git push ---->
+This command sends the committed changes of master branch to your remote repository.
+Example: git push [variable name] master  
+This command sends the branch commits to your remote repository.
+Example: git push [variable name] [branch]  
+
+This command pushes all branches to your remote repository.
+Example: git push –all [variable name]  
+This command deletes a branch on your remote repository.
+Example: git push [variable name] :[branch name]  
+git pull ---->
+This command fetches and merges changes on the remote server to your working directory.
+Example: git pull [Repository Link]  
+git stash ---->
+This command temporarily stores all the modified tracked files.
+Example: git stash save  
+This command restores the most recently stashed files.
+Example: git stash pop  
+This command lists all stashed changesets.
+Example: git stash list  
+This command discards the most recently stashed changeset.
+Example: git stash drop  
+
+
